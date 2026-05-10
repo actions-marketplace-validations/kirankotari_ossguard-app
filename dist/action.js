@@ -1073,7 +1073,7 @@ function getConclusion(results, config) {
     const severityLevel = { info: 0, warning: 1, error: 2 };
     const blockLevel = severityLevel[config.blockOn];
     for (const r of results) {
-        if (r.status === "fail" || r.status === "warn") {
+        if (r.status === "fail") {
             const level = severityLevel[r.severity] ?? 0;
             if (level >= blockLevel) {
                 return "failure";
