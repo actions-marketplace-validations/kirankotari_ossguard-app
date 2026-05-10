@@ -1,0 +1,21 @@
+name: "OSSGuard Security Review"
+description: "Scans PRs for OpenSSF security best practices and posts a review comment"
+author: "Kiran Kumar Kotari <kirankotari@live.com>"
+
+branding:
+  icon: "shield"
+  color: "green"
+
+inputs:
+  github-token:
+    description: "GitHub token for API access"
+    required: false
+    default: ${{ github.token }}
+  config-path:
+    description: "Path to ossguard config file"
+    required: false
+    default: ".github/ossguard.yml"
+
+runs:
+  using: "node20"
+  main: "dist/action.js"

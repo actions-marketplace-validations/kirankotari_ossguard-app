@@ -21,6 +21,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "build:action": "tsc && ncc build dist/action.js -o dist/action-bundle && mv dist/action-bundle/index.js dist/action.js && rm -rf dist/action-bundle",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "lint": "eslint src/",
@@ -28,16 +29,19 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "probot": "^13.0.0",
-    "js-yaml": "^4.1.0"
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "js-yaml": "^4.1.0",
+    "probot": "^13.0.0"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.0.0",
-    "typescript": "^5.7.0",
-    "vitest": "^3.0.0",
+    "@vercel/ncc": "^0.38.4",
     "eslint": "^9.0.0",
-    "ts-node": "^10.9.0"
+    "ts-node": "^10.9.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
   },
   "engines": {
     "node": ">=20"
