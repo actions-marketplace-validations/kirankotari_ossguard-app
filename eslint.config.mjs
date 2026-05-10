@@ -26,6 +26,8 @@ export default [
     rules: {
       ...tsPlugin.configs.recommended.rules,
       "no-undef": "off",
+      "no-empty": ["error", { allowEmptyCatch: true }],
+      "no-useless-escape": "off",
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
       "@typescript-eslint/no-explicit-any": "off",
