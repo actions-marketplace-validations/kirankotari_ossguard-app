@@ -37,7 +37,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: kirankotari/ossguard-app@main
+      - uses: kirankotari/ossguard-app@v1.0.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
