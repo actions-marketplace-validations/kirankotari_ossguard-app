@@ -1,16 +1,23 @@
 <p align="center">
-  <img src="assets/ossguard.png" width="140" height="140" alt="OSSGuard">
+  <img src="https://raw.githubusercontent.com/kirankotari/ossguard-app/main/assets/ossguard.png" width="160" height="160" alt="OSSGuard">
 </p>
 
-# OSSGuard App
+<h1 align="center">OSSGuard Security Review</h1>
 
-**GitHub Action that automatically scans PRs for [OpenSSF](https://openssf.org/) security best practices.**
+<p align="center">
+  <strong>GitHub Action that automatically scans PRs for <a href="https://openssf.org/">OpenSSF</a> security best practices</strong>
+</p>
 
-[![CI](https://github.com/kirankotari/ossguard-app/actions/workflows/ci.yml/badge.svg)](https://github.com/kirankotari/ossguard-app/actions/workflows/ci.yml)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/kirankotari/ossguard-app/badge)](https://scorecard.dev/viewer/?uri=github.com/kirankotari/ossguard-app)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/marketplace/actions/ossguard-security-review"><img src="https://img.shields.io/badge/GitHub%20Marketplace-OSSGuard-green?logo=github" alt="Marketplace"></a>
+  <a href="https://github.com/kirankotari/ossguard-app/actions/workflows/ci.yml"><img src="https://github.com/kirankotari/ossguard-app/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/kirankotari/ossguard-app"><img src="https://api.scorecard.dev/projects/github.com/kirankotari/ossguard-app/badge" alt="OpenSSF Scorecard"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+</p>
 
-> Part of the [OSSGuard](https://github.com/kirankotari/ossguard) project.
+<p align="center">
+  Part of the <a href="https://github.com/kirankotari/ossguard">OSSGuard</a> project
+</p>
 
 ## Quick Start
 
