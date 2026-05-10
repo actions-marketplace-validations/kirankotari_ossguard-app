@@ -4,6 +4,9 @@ import { analyzeSecurityPolicy } from "./security-policy";
 import { analyzeLicense } from "./license";
 import { analyzeSecrets } from "./secrets";
 import { analyzeContainer } from "./container";
+import { analyzeCodeQL } from "./codeql";
+import { analyzeBranchProtection } from "./branch-protection";
+import { analyzeDependencyReview } from "./dependency-review";
 
 export { CheckResult, AnalyzerContext } from "./types";
 
@@ -14,6 +17,9 @@ const analyzers: Analyzer[] = [
   analyzeLicense,
   analyzeSecrets,
   analyzeContainer,
+  analyzeCodeQL,
+  analyzeBranchProtection,
+  analyzeDependencyReview,
 ];
 
 /**
