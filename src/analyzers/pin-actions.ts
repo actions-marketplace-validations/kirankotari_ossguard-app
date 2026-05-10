@@ -101,7 +101,7 @@ export const analyzePinActions: Analyzer = async (
         message: `${unpinnedCount} action(s) not pinned to SHA. E.g. ${examples}`,
       });
     }
-  } catch (error) {
+  } catch (_error) {
     results.push({
       id: "pin-actions",
       name: "Dependency Pinning",

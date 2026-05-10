@@ -820,7 +820,7 @@ const analyzePinActions = async (ctx) => {
             });
         }
     }
-    catch (error) {
+    catch (_error) {
         results.push({
             id: "pin-actions",
             name: "Dependency Pinning",
