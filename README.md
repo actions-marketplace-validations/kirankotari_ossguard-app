@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon.svg" width="120" height="120" alt="OSSGuard">
+</p>
+
 # OSSGuard App
 
 **GitHub Action that automatically scans PRs for [OpenSSF](https://openssf.org/) security best practices.**
