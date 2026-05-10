@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.svg" width="120" height="120" alt="OSSGuard">
+  <img src="assets/ossguard.png" width="140" height="140" alt="OSSGuard">
 </p>
 
 # OSSGuard App
